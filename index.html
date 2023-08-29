@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Álvaro Santos
+    </title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <a href="#top" class="homeIcon">
+            <img src="./imgs/home.png" alt="ícone de home" width="80em" class="homeImage">
+        </a>
+
+        <ul class="links">
+            <li>
+                <a href="#projects">
+                    Projetos
+                </a>
+            </li>
+            <li>
+                <a href="#formation">
+                    Formação
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="home">
+        <div class="hello">
+            Olá, eu sou o Álvaro
+        </div>
+        <div class="profession">
+            WEB 
+            <a href="https://github.com/alvarodavisantos" target="_blank">
+                <img src="./imgs/github.svg" alt="ícone do github" width="60em"> 
+            </a>
+            <a href="https://www.linkedin.com/in/%C3%A1lvaro-santos-0449a8252/" target="_blank">
+                <img src="./imgs/linkedin.svg" alt="ícone do linkedin" width="60em">
+            </a>
+            <a href="imgs/curriculo.pdf" target="_blank">
+                <img src="./imgs/curriculum.svg" alt="ícone do currículo" width="50em">
+            </a>
+            <br>
+            DEVELOPER
+        </div>
+        <div class="presentation">
+            Tenho 20 anos e sou desenvolvedor web,<br> 
+            e tenho trabalhado frequentemente para<br> 
+            aprender cada vez mais novas tecnologias.
+        </div>
+    </div>
+
+    
+    <div class="projects" id="projects">
+        <h1 class="myProjects">
+            Meus Projetos
+        </h1>
+        <div class="projectContainer">
+            <div class="project">
+                <h1 id="titleProject">
+                    Catálogo de Filmes
+                </h1>
+                <div class="projectSection">
+                    <img id="imageProject" src="imgs/project1.png" alt="Imagem do Projeto">
+                    <p id="descProject">
+                        A página web apresenta uma coleção de filmes exibidos em uma grade. Os filmes são exibidos em cartões com informações como título, imagem e descrição. Na parte superior ou inferior da grade, existem botões 'Anterior' e 'Próximo' que permitem navegar pelos filmes um por um. Além disso, há um botão 'Aleatório' que direciona o usuário para um filme escolhido aleatoriamente da coleção. Os usuários podem explorar os filmes, visualizar suas informações e escolher aleatoriamente uma opção de entretenimento.
+                    </p>
+                </div>
+                <div class="projectLinks">
+                    <a href="https://alvarodavisantos.github.io/mudarfilmes/" target="_blank" id="linkPageProject">
+                        Página
+                    </a>
+                    <a href="https://github.com/alvarodavisantos/mudarfilmes" target="_blank" id="linkRepositoryProject">
+                        Repositório
+                    </a>
+                </div>
+                <div class="projectNavigation">
+                    <button id="prevButton" onclick="prevProject()">
+                        Anterior
+                    </button>
+                    <button id="nextButton" onclick="nextProject()">
+                        Próximo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="formation" id="formation">
+        <h1 class="myFormations">
+            Minhas Formações
+        </h1>
+        <div class="education">
+            <div class="educationItem">
+                <h2 class="schoolName">
+                    <a href="https://www2.ufjf.br/ufjf/" target="_blank">
+                        <img src="imgs/ufjf.png" alt="Ícone Universidade Federal de Juiz de Fora" height="50px"> 
+                    </a>
+                    Universidade Federal de Juiz de Fora
+                </h2>
+                <h3 class="degree">
+                    Bacharelado em Sistemas de Informação
+                </h3>
+                <h4 class="date">
+                    Início: Agosto de 2021 - Conclusão: Agosto de 2026
+                </h4>
+            </div>
+            <div class="educationItem">
+                <h2 class="schoolName">
+                    <a href="https://www.ifsudestemg.edu.br" target="_blank">
+                        <img src="imgs/if.png" alt="Ícone Instituto Federal" width="50px"> 
+                    </a>
+                    Instituto Federal Sudeste de Minas Gerais - Campus Juiz de Fora
+                </h2>
+                <h3 class="degree">
+                    Técnico em Informática
+                </h3>
+                <h4 class="date">
+                    Início: Janeiro de 2018 - Conclusão: Dezembro de 2020
+                </h4>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="app.js"></script>

@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 50%, rgba(53,51,205,1) 100%);
+    padding-top: 100px;
+}
+
+/* CONFIGURAÇÃO DA NAVBAR */
+.navbar {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 100%;
+}
+
+.homeIcon {
+    padding-left: 1em;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2em;
+}
+
+.links li {
+    margin-right: 0.9em;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: red;
+}
+
+.links {
+    float: right;
+}
+
+/* CONFIGURAÇÃO DO HOME */
+.home {
+    padding-top: 100px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hello {
+    color: white;
+    font-family: "Open Sans Extra Bold", sans-serif;
+    font-size: 2.5em;
+}
+
+.profession {
+    color: white;
+    font-family: "Open Sans Extra Bold", sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 0.90;
+    letter-spacing: -3px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.profession a {
+    text-decoration: none;
+}
+
+.presentation {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.3em;
+    float: right;
+}
+
+/* CONFIGURAÇÃO DOS PROJETOS */
+.projects {
+    margin-top: 100px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 98vw;
+    height: 100vh;
+}
+
+.projects h1 {
+    font-family: "Open Sans Extra Bold", sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.projectTitle {
+    color: black;
+}
+
+.projectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.projectSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    margin: 20px 0;
+}
+
+.projectSection img {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.projectLinks {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.projectLinks a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.projectLinks a:hover {
+    background-color: #ddd;
+}
+
+.projectNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
+
+#prevButton,
+#nextButton {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#prevButton:hover,
+#nextButton:hover {
+    background-color: #555;
+}
+
+.myProjects {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+/* CONFIGURAÇÃO DAS FORMAÇÕES */
+
+.formation {
+    font-family: "Open Sans", sans-serif;
+    color: #ffff;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.formation a{
+    text-decoration: none;
+}
+
+.myFormations {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.education {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.educationItem {
+    width: 50%;
+    margin-bottom: 20px; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    color: #ffff;
+}
+
+.schoolName {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.degree {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 16px;
+    opacity: 0.8;
+}
