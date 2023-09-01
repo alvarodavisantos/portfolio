@@ -22,6 +22,14 @@ const projects = [
         image: "./imgs/project3.png",
         linkPage: "https://alvarodavisantos.github.io/contador/",
         linkRepository: "https://github.com/alvarodavisantos/contador"
+    },
+    {
+        id: 3,
+        title: "Horário de Ônibus",
+        description: "Nesta aplicação PHP de gerenciamento de horários de ônibus, os administradores têm acesso a uma tela de login segura. Dentro do sistema, eles podem registrar novos horários de ônibus, incluindo informações como origem, destino, hora de partida e chegada, utilizando o MySQL como banco de dados para armazenar esses dados. Além disso, os administradores têm a flexibilidade de editar os horários existentes conforme necessário.",
+        image: "./imgs/project4.gif",
+        linkPage: "https://alvarodavisantos.github.io/cadastro-onibus/index.php",
+        linkRepository: "https://github.com/alvarodavisantos/cadastro-onibus"
     }
 ];
 
